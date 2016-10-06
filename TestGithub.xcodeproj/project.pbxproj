@@ -15,6 +15,7 @@
 		D0F445CB1DA5E2EE00CB4C39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F445C91DA5E2EE00CB4C39 /* LaunchScreen.storyboard */; };
 		D0F445D61DA5E2EE00CB4C39 /* TestGithubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F445D51DA5E2EE00CB4C39 /* TestGithubTests.swift */; };
 		D0F445E11DA5E2EE00CB4C39 /* TestGithubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F445E01DA5E2EE00CB4C39 /* TestGithubUITests.swift */; };
+		D0F445EF1DA5E61E00CB4C39 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D0F445EE1DA5E61E00CB4C39 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D0F445DC1DA5E2EE00CB4C39 /* TestGithubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGithubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F445E01DA5E2EE00CB4C39 /* TestGithubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGithubUITests.swift; sourceTree = "<group>"; };
 		D0F445E21DA5E2EE00CB4C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F445EE1DA5E61E00CB4C39 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		D0F445B21DA5E2ED00CB4C39 = {
 			isa = PBXGroup;
 			children = (
+				D0F445EE1DA5E61E00CB4C39 /* README.md */,
 				D0F445BD1DA5E2EE00CB4C39 /* TestGithub */,
 				D0F445D41DA5E2EE00CB4C39 /* TestGithubTests */,
 				D0F445DF1DA5E2EE00CB4C39 /* TestGithubUITests */,
@@ -267,6 +270,7 @@
 			files = (
 				D0F445C31DA5E2EE00CB4C39 /* SecondViewController.swift in Sources */,
 				D0F445BF1DA5E2EE00CB4C39 /* AppDelegate.swift in Sources */,
+				D0F445EF1DA5E61E00CB4C39 /* README.md in Sources */,
 				D0F445C11DA5E2EE00CB4C39 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
